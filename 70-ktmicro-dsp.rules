@@ -1,0 +1,2 @@
+# Let the logged-in user talk to KT Micro DSP dongles (TANCHJIM BUNNY DSP etc.) over hidraw.
+KERNEL=="hidraw*", ATTRS{idVendor}=="31b2", TAG+="uaccess"
